@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Niftynest | Just print it if u can't have it</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfaf7;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #2c2a29;
+      padding: 1rem 2rem;
+      color: #f3e9dc;
+      font-size: 1.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #3d2f23;
+    }
+    p.tagline {
+      font-size: 1.25rem;
+      font-style: italic;
+      color: #5a4a3c;
+      margin-bottom: 2rem;
+    }
+    section.products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .product-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+    .product-card h3 {
+      margin: 0 0 0.5rem 0;
+      font-weight: 600;
+      color: #4b3f35;
+    }
+    footer {
+      background: #2c2a29;
+      color: #f3e9dc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    a.contact-link {
+      color: #c2b19a;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    a.contact-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>Niftynest</header>
+  <main>
+    <h1>Just print it if u can't have it</h1>
+    <p class="tagline">Custom phone cases & printed t-shirts made just for you.</p>
+    <section class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Phone+Case" alt="Custom Phone Case" />
+        <h3>Custom Phone Cases</h3>
+        <p>Protect your phone in style with personalized designs.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/220x220?text=Printed+T-Shirt" alt="Printed T-Shirt" />
+        <h3>Printed T-Shirts</h3>
+        <p>Wear your unique style with custom-printed tees.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Contact us: 
+    <a class="contact-link" href="mailto:ankitswain010@gmail.com">ankitswain010@gmail.com</a> | 
+    <a class="contact-link" href="https://wa.me/918093318395" target="_blank">WhatsApp</a>
+  </footer>
+</body>
+</html>
